@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+body{
+    background-image: url(./momentumbg.jpg);
+    margin: 10px;
+
+}
+.nav{
+    
+}
+i{
+    font-size: 15px;
+    
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+li:first-child{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    gap: 25px;
+  
+}
+.time{
+   
+     font-size: 140px;
+}
+.greet{
+    font-size: 50px;
+    font-weight: 40px;
+}
+.question{
+    font-size: 30px;
+}
+input[type=text]{
+    width: 470px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: none;
+}
+
+.class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul:first-child{
+    gap:10px;
+}
+.footer-eli{
+   margin-right: 180px;
+}
