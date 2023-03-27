@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./images/signal-2023-03-24-102145_002.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'roboto';
+}
+nav{
+    background: transparent;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background:linear-gradient(90deg, rgba(16,0,36,1) 0%, rgba(66,9,121,1) 35%, rgba(255,0,247,1) 100%)
+    ;
+}
+.btn:hover{
+
+}
+.btn1{
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn1:hover{
+    border: 2px solid rgba(128, 128, 128, 0.666);
+}
+
+.main1{
+    display: flex;
+    margin: 0;
+   
+}
+.all{
+    display: flex;
+    gap: 5px;
+    padding-top: 6px;
+}
+.set1{
+    background-image: url(./images/signal\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   width: 50%;
+   height: 250px;
+
+   padding:20px;
+}
+.p1{
+    color: #fff;
+    font-size: 25px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+.set2{
+    background-image: url(./images/signal\ 3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 50%;
+    height: 250px;
+
+    padding:20px;
+}
+.p2{
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+}
+.btn3{
+  
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.h1{
+    color: #fff;
+    font-family: arial;
+    
+}
+p{
+    color: #fff;
+}
+.shape{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background:linear-gradient(90deg, rgba(16,0,36,1) 0%, rgba(66,9,121,1) 35%, rgba(255,0,247,1) 100%) ;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.chat-icon{
+    
+    width: 40px;
+    fill: #fff;
+   
+}
+.sall{
+display: flex;
+gap: 5px;
+padding-top: 20px;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    width: 500px;
+    height: 100px;
+    background: rgba(227, 225, 225, 0.935);
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    width: 400px;
+    height: 100px;
+    background: rgba(227, 225, 225, 0.935);
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    width: 400px;
+    height: 100px;
+    background: rgba(227, 225, 225, 0.935);
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    width: 400px;
+    height: 100px;
+    background: rgba(227, 225, 225, 0.935);
+}
+.glass{
+    width: 23px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.glass1{
+    width: 23px;
+}
+.message{
+    width: 23px;
+}
+.car{
+    width: 23px;
+}
+.btn6{
+    color: #000;
+    color: #fff;
+    width: 250px;
+    height: 40px;
+    background: rgb(2, 2, 255);
+
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn4{
+    color: #000;
+    width: 200px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn5{
+    color: #000;
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+.p3{
+    color: #000;
+}
+select{
+    height: 35px;
+    width: 250px;
+    padding-left: 15px;
+    background: #fff;
+}
+@media (max-width: 768px) {
+    ul{
+        display: block;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        gap: 40px;
+    }
+    li a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:stretch ;
+        padding: 1rem;
+        margin: 7px;
+        text-align: center;
+        width: 100%;
+        height: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.564);
+        background-color: rgb(248, 248, 248);
+        
+    }
+}
