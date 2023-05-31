@@ -60,7 +60,12 @@ main{
 .btn1:hover{
     border: 2px solid rgba(128, 128, 128, 0.666);
 }
-
+body{
+    scroll-behavior: smooth;
+}
+.sall{
+    cursor: pointer;
+}
 .main1{
     display: flex;
     margin: 0;
@@ -95,6 +100,7 @@ main{
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
+
 
 }
 .set2{
@@ -170,6 +176,7 @@ padding-top: 20px;
     width: 500px;
     height: 100px;
     background: rgba(227, 225, 225, 0.935);
+    
 }
 .div2{
     display: flex;
@@ -182,6 +189,8 @@ padding-top: 20px;
     width: 400px;
     height: 100px;
     background: rgba(227, 225, 225, 0.935);
+
+    
 }
 .div3{
     display: flex;
@@ -194,6 +203,8 @@ padding-top: 20px;
     width: 400px;
     height: 100px;
     background: rgba(227, 225, 225, 0.935);
+
+    
 }
 .div4{
     display: flex;
@@ -207,11 +218,19 @@ padding-top: 20px;
     height: 100px;
     background: rgba(227, 225, 225, 0.935);
 }
+.section{
+    cursor: pointer;
+}
 .glass{
     width: 23px;
     display: flex;
     justify-content: right;
     align-items: center;
+}
+.ul44{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 .glass1{
     width: 23px;
@@ -231,6 +250,7 @@ padding-top: 20px;
 
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 .btn4{
     color: #000;
@@ -242,6 +262,7 @@ padding-top: 20px;
 
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn5{
     color: #000;
@@ -253,6 +274,7 @@ padding-top: 20px;
 
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 .p3{
     color: #000;
@@ -263,26 +285,411 @@ select{
     padding-left: 15px;
     background: #fff;
 }
+.section{
+    margin: 100px 200px;
+}
+.mode-body{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.129);;
+    
+}
+#model{
+    font-size: 20px;
+    cursor: pointer;
+} 
+.body-types{
+    font-size: 20px;
+}
+.all{
+
+}
+.ul{
+   gap: 50px;
+  
+   padding: 35px;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.129);
+}
+.ul li{
+    
+}
+li a{
+    color: #000;
+
+}
+.sect-two{
+    display: flex;
+    margin: 20px 240px;
+    gap: 120px;
+}
+.eli1{
+
+}
+.ul1{
+    display: flex;
+    flex-direction: column;
+}
+.eli2{
+
+}
+.ul2{
+    display: flex;
+    flex-direction: column;
+}
+.eli3{
+
+}
+.ul3{
+    display: flex;
+    flex-direction: column;
+}
+.eli4{
+
+}
+.ul4{
+    display: flex;
+    flex-direction: column;
+}
+.ul1 a, .ul2 a, .ul3 a, .ul4 a{
+    font-weight: 900;
+    font-size: 15px;
+}
+.u15 a, .u16 a, .u17 a, .u18 a{
+    font-weight: 900;
+    font-size: 15px;
+}
+.one{
+    color: rgba(0, 0, 255, 0.724);
+    font-weight: 800;
+}
+.two{
+    font-weight: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.three{
+    font-size: 20px;
+}
+.sect-three{
+    display: flex;
+    margin: 20px 240px;
+    gap: 120px;
+}
+.eli5{
+
+}
+.ul5{
+    display: flex;
+    flex-direction: column;
+}
+.eli6{
+
+}
+.ul6{
+    display: flex;
+    flex-direction: column;
+}
+.eli7{
+
+}
+.ul7{
+    display: flex;
+    flex-direction: column;
+}
+.eli8{
+
+}
+.ul8{
+    display: flex;
+    flex-direction: column;
+}
+
+.sect-four{
+    margin: 10px 240px;
+}
+.shape2{
+    width: 900px;
+    height: 450px;
+    border: 3px solid #fff;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px;
+   
+}
+.img{
+    width: 865px;
+    height: 250px;
+    padding-bottom: 10px;
+}
+.h9{
+    color: #000;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 0;
+}
+.p9{
+    color: #000;
+    padding-bottom: 15px;
+    font-size: 17px;
+    
+}
+.link{
+    text-decoration: none;
+}
+.hi{
+    font-size: 20px;
+    font-family:'fantasy';
+}
+.sect-five{
+    margin: 15px;
+     padding: 20px;
+}
+.shape3{
+    height: 450px;
+    width: 440px;
+    border: 3px solid #fff;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px;
+   
+}
+.link{}
+.img1{
+    width: 400px;
+    height: 250px;
+}
+.p10{
+    color:#000;
+}
+.h10{
+    color:#000;
+}
+.sect-all{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.hello{
+
+}
+.icons{
+    width: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 20px;
+    
+}
+.p11{
+    color: #000;
+}
+.footer{
+    background-color: gray;
+    padding: 10px;
+}
+.forall{
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}.first, .second, .third, .fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img4{
+    width: 150px;
+}
+.img6{
+    width: 50px;
+}
+.img9{
+    width: 30px;
+}
+.dif{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.divs{
+    gap: 20px;
+}
+.img10{
+    width: 60px;
+    display: flex;
+}
+.us2{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+}
 @media (max-width: 768px) {
-    ul{
-        display: block;
-        justify-content: center;
-        align-items: stretch;
-        text-align: center;
-        gap: 40px;
-    }
-    li a{
+    .main1{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items:stretch ;
-        padding: 1rem;
-        margin: 7px;
-        text-align: center;
-        width: 100%;
-        height: 5px;
-        border: 1px solid rgba(128, 128, 128, 0.564);
-        background-color: rgb(248, 248, 248);
+        align-items: center;
+        
+
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        color: #000;
+
+    }
+    .sall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
+    .set1{}
+    .p6{}
+    .set2{}
+    .shape{}
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .sect-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .sect-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .sect-four{
+       margin: 10px 240px;
+    }
+    .img{
+        width: 350px;
+        height: 50px;
+        padding-bottom: px;
+}
+    .h9{
+        font-size: 10px;
+    }
+    .p9{
+        font-size: 10px;
+    }
+    .shape2{
+        width: 380px;
+        height: 300px;
+        border: 3px solid #fff;
+        padding: 15px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+    .sect-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .sect-five{}
+    .shape3{
+        height: 450px;
+        width: 400px;
+        border: 3px solid #fff;
+        padding: 15px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+    .img1{
+        width: 365PX;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .icon{
+        display: flex;
+        
+        justify-content: right;
+        align-items: flex-end;
+        gap: 20px;
+    }
+    .dif{
+        gap: 15px;
+    }
+    .us2{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        gap: 20px;
+    }
+    .ul li{
+        font-size: 1px;
+    }
+
+    .div1, .div2, .div3, .div4{
+        width: 350px;
+        height: 100px;
+        background: rgba(227, 225, 225, 0.935);
+    }
+    .set1{
+        width: 400px;
+        height: 250px;
+        padding: 15px;
+    }
+   .set2{
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+   }
+   .mid{
+    padding: 10px;
+    width: 400px;
+   }
+   .ul44{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
+   }
+   header{
+    width: 100vw;
+   }
+   
 }
